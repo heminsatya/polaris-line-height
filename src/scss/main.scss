@@ -1,0 +1,19 @@
+/**
+ * Polaris line-height Plugin v1.0.0
+ * MIT License github.com/heminsatya/polaris-plugins | © 2022 polarisui.com
+**/
+// -------------------------------------------------- //
+//                    Constructor                     //
+// -------------------------------------------------- //
+@use 'sass:math';
+@use "sass:map";
+
+@import "./bootstrap";
+
+
+/* -------------------------------------------------- */
+/*                     line-height                    */
+/* -------------------------------------------------- */
+// -- Component Class -- //
+@include component-class($line-heights-plugin, $name-line-height, "line-height", $strict-font-formating);
+@include responsive-component-class($line-heights-plugin, $name-line-height, "line-height",  $responsive-font-formating, $strict-font-formating);
