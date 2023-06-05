@@ -1,6 +1,6 @@
-# Polaris line-height Plugin (v1.3.2)
+# Polaris line-height Plugin (v1.3.3)
 
-In addition to the built-in core colors comes with [Polaris framework](https://github.com/heminsatya/polaris-core), you can also use a set of flat and beautiful colors.
+In addition to the built-in features and components comes with [Polaris framework](https://github.com/heminsatya/polaris), you can also use a set of useful plugins.
 
 Polaris line-height Plugin contains a set of responsive classes for controlling the `line-height` of HTML elements.
 
