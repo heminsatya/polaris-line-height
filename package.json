@@ -1,6 +1,6 @@
 {
   "name": "polaris-line-height",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Polaris line-height Plugin for Polaris Framework. A set of responsive classes for controlling the 'line-height' of HTML elements.",
   "author": "Hemin Satya",
   "license": "MIT",
@@ -33,7 +33,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "sass src/scss/main.scss dist/css/main.min.css --style compressed --load-path=node_modules",
+    "css": "sass src/scss/main.scss dist/css/main.min.css --style compressed --load-path=node_modules --no-source-map",
     "css-dev": "sass src/scss/main.scss dist/css/main.css --watch --load-path=node_modules"
   }
 }
